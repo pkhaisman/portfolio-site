@@ -11,11 +11,35 @@
 
     <body>
         <nav class="nav">
-            <ul class="nav__list">
-                <li>PK</li>
-                <li>xxx</li>        
-            </ul>
+            <div class="nav-container">
+                <p class="nav__logo">PK</p>
+    
+                <div class="js-hamburger-icon">
+                    <div class="nav__hamburger-icon-line"></div>
+                    <div class="nav__hamburger-icon-line"></div>
+                    <div class="nav__hamburger-icon-line"></div>
+                </div>
+            </div>
+            
+            <div class="nav__list">
+                <ul class="nav__list-container">                    
+                    <li class="nav__list-item">About</li>        
+                    <li class="nav__list-item">Projects</li>   
+                    <li class="nav__list-item">Contact</li>                    
+                </ul>
+            </div>
+            
+
+
+
+
         </nav>
+
+
+
+
+
+
         <main>
             <header class="hero">
                 <p>hello!</p>
@@ -26,8 +50,8 @@
             <section class="section section--background-blue">
                 <h2 class="section__header">About Me</h2>
                 <p class="section__content">
-                    I am a student in Thinkful's Full Stack Flex program where I am learning
-                    the skills to become a full stack web developer. I am a lifelong learner
+                    I am a student in Thinkful's Full Stack Flex program where I am training to
+                    become a full stack web developer. I am a lifelong learner
                     who relishes in the opportunity to solve problems with creative and critical
                     thought. I care deeply about writing well designed code that is clean, concise
                     and functional. My greatest strength as a developer is my ability to remain
@@ -46,8 +70,7 @@
                     </p>
                 </section>
             </section>
-            <footer class="contact">
-                <h2 class="contact__header">Contact Me</h2>
+            <footer class="contact"> 
                 <ul class="contact__list">
                     <li>GitHub</li>
                     <li>LinkedIn</li>
@@ -55,5 +78,11 @@
                 </ul>
             </footer>
         </main>
+
+        <script
+            src="https://code.jquery.com/jquery-3.4.0.min.js"
+            integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+            crossorigin="anonymous"></script>
+        <script src="scripts.js"></script>
     </body>
 </html>

@@ -14,12 +14,43 @@ body {
     color: #2D848A;
 }
 
-.nav__list {
-    list-style-type: none;
+.nav-container {
     display: flex;
     justify-content: space-between;
+}
+
+.nav__logo {
+    margin: 0;
+    height: 27px;
+}
+
+.js-hamburger-icon {
+    height: 27px;
+}
+
+.nav__hamburger-icon-line {
+    width: 25px;
+    height: 1px;
+    background-color: #2D848A;
+    margin: 6px 0;
+}
+
+.nav__list {
+    display: none;
+    list-style-type: none;
     margin: 0;
     padding: 0 16px;
+}
+
+.nav__list-container {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.display-nav-links {
+    display: block;
 }
 
 .hero {
@@ -77,11 +108,15 @@ body {
 .contact__list {
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 0;
     padding: 0 1rem;
 }
 
-@media screen and (min-width: 600px) {
-
+@media screen and (min-width: 800px) {
+    .nav__list {
+        display: block;
+        margin-left: 1rem;
+    }    
 }
+
