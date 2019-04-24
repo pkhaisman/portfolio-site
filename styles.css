@@ -3,29 +3,70 @@
 }
 
 body {
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
+    line-height: 1.5;
 }
 
-nav, header, section {
-    padding: 20px;
+.header {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
 }
 
-header, section {
-    height: 200px;
+.nav {
+    background-color: #D8E8E9;
+    padding: 1rem;
+    color: #2D848A;
+}
+
+.nav__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0 16px;
+}
+
+.section {
+    padding: 6rem 1rem;
+}
+
+.section__header {
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+.section__content {
+    padding: 0 1rem;
+    margin: 0;
+}
+
+.hero {
+    color: #2D848A;    
+}
+
+
+
+.bio {
+    background-color: #2D848A;
+    color: #FFF;    
+}
+
+.projects {
+    color: #2D848A;
 }
 
 .contact {
-    height: auto;
+    background-color: #D8E8E9;    
+    color: #2D848A;
+    padding: 1rem;
 }
 
-nav {
-    background-color: grey;
+.contact__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0 16px;
 }
 
-section {
-    background-color: #C0C0C0;
-}
-
-section:nth-child(even) {
-    background-color: #ddd;
-}

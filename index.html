@@ -3,19 +3,58 @@
     <head>
         <title></title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500|Montserrat:400" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
     </head>
 
     <body>
-        <nav>nav</nav>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li>PK</li>
+                <li>xxx</li>        
+            </ul>
+        </nav>
         <main>
-            <header>hero</header>
-            <section>bio</section>
-            <section>technologies</section>
-            <section>projects</section>
-            <section class="contact">contact</section>
+            <header class="section hero">
+                <p>hello!</p>
+                <h2 class="header">I'M PHIL</h2>
+                <p>(a budding)</p>
+                <h1 class="header">FULL STACK WEB DEVELOPER</h1>
+            </header>
+            <section class="section bio">
+                <h2 class="section__header header">About Me</h2>
+                <p class="section__content">
+                    I am a student in Thinkful's Full Stack Flex program where I am learning
+                    the skills to become a full stack web developer. I am a lifelong learner
+                    who relishes in the opportunity to solve problems with creative and critical
+                    thought. I care deeply about writing well designed code that is clean, concise
+                    and functional. My greatest strength as a developer is my ability to remain
+                    open, curious, and humble.
+                </p>
+            </section>
+            <section class="section projects">
+                <h2 class="section__header header">Projects</h2>
+                <section>
+                    <h3 class="header">Quiz App</h3>
+                    <p>HTML, CSS, JavaScript, jQuery</p>
+                    <p class="section__content">
+                        Simple quiz application that prompts users through ten questions, providing 
+                        feedback after each question and after the ten questions. Displays user 
+                        progress and score throughout the quiz, and allows users to retake the quiz
+                        after completion.
+                    </p>
+                </section>
+            </section>
+            <footer class="contact">
+                <h2>Contact Me</h2>
+                <ul class="contact__list">
+                    <li>GitHub</li>
+                    <li>LinkedIn</li>
+                    <li>Email</li>
+                </ul>
+            </footer>
         </main>
     </body>
 </html>
