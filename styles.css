@@ -24,7 +24,7 @@ body {
     height: 27px;
 }
 
-.js-hamburger-icon {
+.nav__hamburger-icon {
     height: 27px;
 }
 
@@ -47,6 +47,7 @@ body {
     list-style-type: none;
     justify-content: space-evenly;
     padding: 0;
+    margin-bottom: 0px;
 }
 
 .display-nav-links {
@@ -116,7 +117,19 @@ body {
 @media screen and (min-width: 800px) {
     .nav__list {
         display: block;
-        margin-left: 1rem;
+        position: absolute;
+        right: 1rem;
+        top: 1px;
+        margin: 0;
+        padding: 0;
     }    
+
+    .nav__list-item {
+        margin-left: 1rem;
+    }
+
+    .nav__hamburger-icon {
+        display: none;
+    }
 }
 
