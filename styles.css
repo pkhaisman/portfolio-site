@@ -12,7 +12,6 @@ body {
     background-color: #D8E8E9;
     padding: 1rem;
     color: #2D848A;
-    /* position: fixed; */
 }
 
 .nav-container {
@@ -58,6 +57,7 @@ body {
 .hero {
     color: #2D848A;   
     padding: 6rem 0; 
+    margin-top: -59px;
 }
 
 .hero__header {
@@ -70,7 +70,7 @@ body {
 }
 
 .section {
-    padding: 12rem 1rem;
+    padding: 6rem 1rem;
 }
 
 .section__header {
@@ -108,13 +108,13 @@ body {
     margin: 0 auto;
 }
 
-.contact {
+.contacts {
     background-color: #D8E8E9;    
     color: #2D848A;
     padding: 1rem;
 }
 
-.contact__list {
+.contacts__list {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
@@ -133,6 +133,7 @@ body {
 
 a:hover {
     cursor: pointer;
+    color: rgb(31, 89, 94);
 }
 
 @media screen and (min-width: 800px) {

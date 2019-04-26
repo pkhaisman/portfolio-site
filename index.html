@@ -25,9 +25,9 @@
             
             <div class="nav__list">
                 <ul class="nav__list-container">                    
-                    <li class="nav__list-item"><a class="about links" href="#">About</a></li>        
-                    <li class="nav__list-item"><a class="project links" href="#">Projects</a></li>   
-                    <li class="nav__list-item"><a class="contact links" href="#">Contact</a></li>                    
+                    <li class="nav__list-item"><a class="links" href="#about-section">About</a></li>        
+                    <li class="nav__list-item"><a class="links" href="#project-section">Projects</a></li>   
+                    <li class="nav__list-item"><a class="links" href="#contact-section">Contact</a></li>                    
                 </ul>
             </div>
         </nav>
@@ -40,7 +40,7 @@
                 <h1 class="hero__header">FULL STACK WEB DEVELOPER</h1>
             </header>
 
-            <section class="section section--background-blue">
+            <section id="about-section" class="section section--background-blue">
                 <h2 class="section__header">About Me</h2>
                 <p class="section__content">
                     I am a student in Thinkful's Full Stack Flex program where I am training to
@@ -52,7 +52,7 @@
                 </p>
             </section>
 
-            <section class="section section--color-inverse">
+            <section id="project-section" class="section section--color-inverse">
                 <h2 class="section__header">Projects</h2>
                 <section>
                     <img class="quiz-app-img" src="./photos/project-screenshots/quiz-app-screenshot-2.png" alt="Screenshot of quiz app">
@@ -64,18 +64,18 @@
                             feedback after each answer.
                         </p>
                         <div class="project-links">
-                            <a href="https://github.com/pkhaisman/portfolio-site">Project Repo</a>
-                            <a href="https://pkhaisman.github.io/portfolio-site/">Check it out!</a>
+                            <a target="_blank" href="https://github.com/pkhaisman/portfolio-site">Project Repo</a>
+                            <a target="_blank" href="https://pkhaisman.github.io/portfolio-site/">Live Version</a>
                         </div>
                     </div>
                 </section>
             </section>
 
-            <footer class="contact"> 
-                <ul class="contact__list">
-                    <li><a class="links" href="https://github.com/pkhaisman/"><i class="icon fab fa-github"></i></a></li>
-                    <li><a class="links" href="https://www.linkedin.com/in/philip-khaisman-4b480b151?trk=people-guest_profile-result-card_result-card_full-click"><i class="icon fab fa-linkedin"></i></a></li>
-                    <li><a class="links" href="mailto:pkhaisman@gmail.com"><i class="icon fas fa-envelope"></i></a></li>
+            <footer id="contact-section" class="contacts"> 
+                <ul class="contacts__list">
+                    <li><a class="links" target="_blank" href="https://github.com/pkhaisman/"><i class="icon fab fa-github"></i></a></li>
+                    <li><a class="links" target="_blank" href="https://www.linkedin.com/in/philip-khaisman-4b480b151?trk=people-guest_profile-result-card_result-card_full-click"><i class="icon fab fa-linkedin"></i></a></li>
+                    <li><a class="links" target="_blank" href="mailto:pkhaisman@gmail.com"><i class="icon fas fa-envelope"></i></a></li>
                 </ul>
             </footer>
         </main>
