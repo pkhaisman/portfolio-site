@@ -12,6 +12,7 @@ body {
     background-color: #D8E8E9;
     padding: 1rem;
     color: #2D848A;
+    /* position: fixed; */
 }
 
 .nav-container {
@@ -69,7 +70,7 @@ body {
 }
 
 .section {
-    padding: 6rem 1rem;
+    padding: 12rem 1rem;
 }
 
 .section__header {
@@ -100,6 +101,13 @@ body {
     max-width: 600px;
 }
 
+.project-links {
+    display: flex;
+    justify-content: space-around;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
 .contact {
     background-color: #D8E8E9;    
     color: #2D848A;
@@ -112,6 +120,19 @@ body {
     justify-content: space-evenly;
     margin: 0;
     padding: 0 1rem;
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+.links {
+    color: #2D848A;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
 }
 
 @media screen and (min-width: 800px) {

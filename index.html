@@ -4,6 +4,7 @@
         <title>Phil's Portfolio</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
         <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500|Montserrat:400" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
@@ -24,22 +25,12 @@
             
             <div class="nav__list">
                 <ul class="nav__list-container">                    
-                    <li class="nav__list-item">About</li>        
-                    <li class="nav__list-item">Projects</li>   
-                    <li class="nav__list-item">Contact</li>                    
+                    <li class="nav__list-item"><a class="about links" href="#">About</a></li>        
+                    <li class="nav__list-item"><a class="project links" href="#">Projects</a></li>   
+                    <li class="nav__list-item"><a class="contact links" href="#">Contact</a></li>                    
                 </ul>
             </div>
-            
-
-
-
-
         </nav>
-
-
-
-
-
 
         <main>
             <header class="hero">
@@ -48,6 +39,7 @@
                 <p>(a budding)</p>
                 <h1 class="hero__header">FULL STACK WEB DEVELOPER</h1>
             </header>
+
             <section class="section section--background-blue">
                 <h2 class="section__header">About Me</h2>
                 <p class="section__content">
@@ -59,6 +51,7 @@
                     open, curious, and humble.
                 </p>
             </section>
+
             <section class="section section--color-inverse">
                 <h2 class="section__header">Projects</h2>
                 <section>
@@ -72,16 +65,17 @@
                         </p>
                         <div class="project-links">
                             <a href="https://github.com/pkhaisman/portfolio-site">Project Repo</a>
-                            <a href=""></a>
+                            <a href="https://pkhaisman.github.io/portfolio-site/">Check it out!</a>
                         </div>
                     </div>
                 </section>
             </section>
+
             <footer class="contact"> 
                 <ul class="contact__list">
-                    <li>GitHub</li>
-                    <li>LinkedIn</li>
-                    <li>Email</li>
+                    <li><a class="links" href="https://github.com/pkhaisman/"><i class="icon fab fa-github"></i></a></li>
+                    <li><a class="links" href="https://www.linkedin.com/in/philip-khaisman-4b480b151?trk=people-guest_profile-result-card_result-card_full-click"><i class="icon fab fa-linkedin"></i></a></li>
+                    <li><a class="links" href="mailto:pkhaisman@gmail.com"><i class="icon fas fa-envelope"></i></a></li>
                 </ul>
             </footer>
         </main>
@@ -93,3 +87,5 @@
         <script src="scripts.js"></script>
     </body>
 </html>
+
+
