@@ -138,6 +138,10 @@ body {
     padding: 0 1rem;
 }
 
+.contact-header {
+    font-size: 2rem;
+}
+
 .icon {
     margin-right: 5px;
 }
