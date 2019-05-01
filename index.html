@@ -3,7 +3,7 @@
     <head>
         <title>Phil's Portfolio</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500|Montserrat:400" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500|Montserrat:400" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,10 +34,11 @@
 
         <main>
             <header class="hero">
-                <p>hello!</p>
-                <h2 class="hero__header hero__header--big">I'M PHIL</h2>
-                <p>(a budding)</p>
-                <h1 class="hero__header">FULL STACK WEB DEVELOPER</h1>
+                <p class="hello">hello!</p>
+                <div class="reformat-hero">
+                    <h1 class="hero__header hero__header--big">I'M PHIL: <span class="header-small">(a budding)</span> FULL STACK WEB DEVELOPER</h1>
+                </div>
+                <img class="profile-img" src="./photos/profile-img.png" alt="profile image">
             </header>
 
             <section id="about-section" class="section section--background-blue">
@@ -64,19 +65,23 @@
                             feedback after each answer.
                         </p>
                         <div class="project-links">
-                            <a target="_blank" href="https://github.com/pkhaisman/quizz-app">Project Repo</a>
+                            <a target="_blank" href="https://github.com/pkhaisman/quiz-app">Project Repo</a>
                             <a target="_blank" href="https://pkhaisman.github.io/quiz-app/">Live Version</a>
                         </div>
                     </div>
                 </section>
             </section>
 
-            <footer id="contact-section" class="contacts"> 
-                <ul class="contacts__list">
-                    <li><a class="links" target="_blank" href="https://github.com/pkhaisman/"><i class="icon fab fa-github"></i></a></li>
-                    <li><a class="links" target="_blank" href="https://www.linkedin.com/in/philip-khaisman-4b480b151?trk=people-guest_profile-result-card_result-card_full-click"><i class="icon fab fa-linkedin"></i></a></li>
-                    <li><a class="links" target="_blank" href="mailto:pkhaisman@gmail.com"><i class="icon fas fa-envelope"></i></a></li>
-                </ul>
+            <footer id="contact-section" class="contacts">
+                <section class="section">
+                    <h2>Contact</h2> 
+                    <p>Connect with me! I'd love to hear from you.</p>
+                    <ul class="contacts__list">
+                        <li><a class="links fa" target="_blank" href="https://github.com/pkhaisman/"><i class="icon fab fa-github"></i></a></li>
+                        <li><a class="links fa" target="_blank" href="https://www.linkedin.com/in/philip-khaisman-4b480b151?trk=people-guest_profile-result-card_result-card_full-click"><i class="icon fab fa-linkedin"></i></a></li>
+                        <li><a class="links fa" target="_blank" href="mailto:pkhaisman@gmail.com"><i class="icon fas fa-envelope"></i></a></li>
+                    </ul>
+                </section>
             </footer>
         </main>
 
