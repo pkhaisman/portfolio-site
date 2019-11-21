@@ -122,13 +122,18 @@ body {
 
 .app-img {
     position: relative;
-    width: 100%;
+    height: auto;
+    max-height: 375px;
+    width: auto;
     max-width: 90%;
 }
 
 .app-img--climbr {
     position: relative;
-    height: 400px;
+    height: auto;
+    max-height: 500px;
+    width: auto;
+    max-width: 90%;
 }
 
 .project-links {
