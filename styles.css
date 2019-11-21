@@ -117,6 +117,13 @@ body {
     max-width: 600px;
 }
 
+.app-img--climber {
+    position: relative;
+    height: 327px;
+    width: auto;
+    max-width: 600px;
+}
+
 .project-links {
     display: flex;
     justify-content: space-around;
