@@ -70,14 +70,23 @@ body {
 }
 
 .section {
-    padding: 6rem 1rem;
-    margin-bottom: 50px;
+    padding: 6rem 0;
+    /* margin-bottom: 50px; */
 }
 
 .section__header {
     font-family: 'Fira Sans', sans-serif;
     font-weight: 500;
     font-size: 1.6rem;
+    margin-top: 0;
+}
+
+.section--project-section {
+    padding: 5rem 0;
+}
+
+.section--project-section:nth-child(even) {
+    background-color: #D8E8E9;
 }
 
 .header-small {
@@ -117,10 +126,10 @@ body {
     max-width: 600px;
 }
 
-.app-img--climber {
+.app-img--climbr {
     position: relative;
-    height: 500px;
-    width: 422px;
+    height: 400px;
+    /* width: 422px; */
 }
 
 .project-links {
