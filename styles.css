@@ -119,9 +119,8 @@ body {
 
 .app-img--climber {
     position: relative;
-    height: 327px;
-    width: auto;
-    max-width: 600px;
+    height: 500px;
+    width: 422px;
 }
 
 .project-links {
