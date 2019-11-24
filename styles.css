@@ -8,10 +8,19 @@ body {
     line-height: 1.5;
 }
 
+.main {
+    margin-top: 60px;
+}
+
 .nav {
     background-color: #D8E8E9;
     padding: 1rem;
-    color: #2D848A;
+    color: #194E52;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 1px 3px 0 rgb(199, 199, 199);
+    z-index: 5;
 }
 
 .nav-container {
@@ -26,6 +35,10 @@ body {
 
 .nav__hamburger-icon {
     height: 27px;
+}
+
+.nav__hamburger-icon:hover {
+    cursor: pointer;
 }
 
 .nav__hamburger-icon-line {
@@ -71,7 +84,6 @@ body {
 
 .section {
     padding: 6rem 0;
-    /* margin-bottom: 50px; */
 }
 
 .section__header {
@@ -108,6 +120,8 @@ body {
     max-width: 400px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 1rem;
+    text-align: left;
 }
 
 .section--background-blue {
@@ -116,7 +130,7 @@ body {
 }
 
 .section--color-inverse {
-    color: #2D848A;
+    color: #194E52;
     background-color: #FFF;
 }
 
@@ -138,14 +152,15 @@ body {
 
 .project-links {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     max-width: 400px;
     margin: 0 auto;
+    padding: 0 1rem;
 }
 
 .contacts {
     background-color: #D8E8E9;    
-    color: #2D848A;
+    color: #194E52;
     padding: 1rem;
     height: 600px;
 }
@@ -167,7 +182,7 @@ body {
 }
 
 .links {
-    color: #2D848A;
+    color: #194E52;
     text-decoration: none;
 }
 
@@ -177,7 +192,7 @@ body {
 
 a:hover {
     cursor: pointer;
-    color: rgb(31, 89, 94);
+    font-weight: 800;
 }
 
 @media screen and (min-width: 800px) {
@@ -202,6 +217,7 @@ a:hover {
         max-width: 500px;
         margin-left: auto;
         margin-right: auto;
+        text-align: center;
     }
 }
 
